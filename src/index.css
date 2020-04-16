@@ -1,0 +1,51 @@
+html, body {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.slider  {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.slider-arrows {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  
+}
+
+.slider-arrows > .arrow {
+  margin-top: 200px;
+}
+
+.slider-arrows i {
+  cursor: pointer;
+  display: block;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.slider-arrows > .arrow.right {
+  right: 0;
+}
+
+.pic {
+  width: 1050px;
+  height: 550px;
+  padding-left: 155px;
+}
+
+body {
+  background-color: black;
+}
+
+.text {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 23px;
+  color: white;
+
+}
